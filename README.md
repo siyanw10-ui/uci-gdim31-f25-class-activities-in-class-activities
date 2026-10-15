@@ -40,11 +40,13 @@ The method checks when the player presses the key. It returns true or false.
 
 ### Activity 2
 
-A class is like a coffee machine blueprint. A Component is like a real coffee machine made from the blueprint. Member variables are settings like temperature and coffee size. Methods are actions like making coffee and heating water. Different coffee machines can use the same design but have different settings.
+A class is like a coffee machine blueprint. 
+A Component is like a real coffee machine made from the blueprint. Member variables are settings like temperature and coffee size. Methods are actions like making coffee and heating water. Different coffee machines can use the same design but have different settings.
 
 ### Activity 3
 
-The balls get extremely bright because their color is multiplied by 1.5 when they bounce at a certain speed. Every time this happens, the color values increase again. After many bounces, the values become very high, making the balls look extremely bright, especially in the Scene view. 
+The balls get extremely bright because their color is multiplied by 1.5 when they bounce at a certain speed. 
+Every time this happens, the color values increase again. After many bounces, the values become very high, making the balls look extremely bright, especially in the Scene view. 
 
 
 ## Open-Source Assets
