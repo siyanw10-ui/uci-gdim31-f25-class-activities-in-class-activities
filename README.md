@@ -20,7 +20,7 @@ The error showed a type mismatch. C# does not allow assigning a value of one dat
 
 ### Activity 1
 
-1.GetResponse
+1. GetResponse
 
 Parameters: int friendship level, bool knowsSecret
 Return Type: string
