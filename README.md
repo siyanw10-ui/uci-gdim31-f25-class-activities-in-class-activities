@@ -16,9 +16,10 @@ Bounce counts how many whole times the ball hits the wall. You cannot have parti
 The error showed a type mismatch. C# does not allow assigning a value of one data type into a variable of another incompatible type. This teaches us variables must match their data type.
 [itchio link](https://siyan-wu.itch.io/w2-in-class-activities)
 
-###W3
+### W3
 
 Activity 1
+
 1.GetResponse
 Parameters: int friendship level, bool knowsSecret
 Return Type: string
