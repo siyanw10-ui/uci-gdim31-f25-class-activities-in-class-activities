@@ -18,26 +18,31 @@ The error showed a type mismatch. C# does not allow assigning a value of one dat
 
 ### W3
 
-Activity 1
+### Activity 1
 
-1.GetResponse
+# 1.GetResponse
+
 Parameters: int friendship level, bool knowsSecret
 Return Type: string
 The method uses friendship level and whether the player knows the secret. It returns a text response.
-2. SetLightDimness
+
+# 2. SetLightDimness
+
 Parameter: float santyLevel
 Return Type: viod
 The method uses the player's sanity level to change the light brightness. It does not return anything.
-3. DidPlayerHitBeat
+
+# 3. DidPlayerHitBeat
+
 Parameter: float pressTime
 Return Type: bool
 The method checks when the player presses the key. It returns true or false.
 
-Activity 2
+# Activity 2
 
 A class is like a coffee machine blueprint. A Component is like a real coffee machine made from the blueprint. Member variables are settings like temperature and coffee size. Methods are actions like making coffee and heating water. Different coffee machines can use the same design but have different settings.
 
-Activity 3
+# Activity 3
 
 The balls get extremely bright because their color is multiplied by 1.5 when they bounce at a certain speed. Every time this happens, the color values increase again. After many bounces, the values become very high, making the balls look extremely bright, especially in the Scene view. 
 
