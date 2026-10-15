@@ -20,19 +20,19 @@ The error showed a type mismatch. C# does not allow assigning a value of one dat
 
 ### Activity 1
 
-### 1.GetResponse
+1.GetResponse
 
 Parameters: int friendship level, bool knowsSecret
 Return Type: string
 The method uses friendship level and whether the player knows the secret. It returns a text response.
 
-### 2. SetLightDimness
+2. SetLightDimness
 
 Parameter: float santyLevel
 Return Type: viod
 The method uses the player's sanity level to change the light brightness. It does not return anything.
 
-### 3. DidPlayerHitBeat
+3. DidPlayerHitBeat
 
 Parameter: float pressTime
 Return Type: bool
