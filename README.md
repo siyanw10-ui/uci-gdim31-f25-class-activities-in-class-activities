@@ -15,6 +15,7 @@ Bounce counts how many whole times the ball hits the wall. You cannot have parti
 3. The error you got after Step 4 of Part 2 told you something useful about why that line of code was broken - what was it?
 The error showed a type mismatch. C# does not allow assigning a value of one data type into a variable of another incompatible type. This teaches us variables must match their data type.
 [itchio link](https://siyan-wu.itch.io/w2-in-class-activities)
+
 ###W3
 
 Activity 1
@@ -32,10 +33,14 @@ Return Type: bool
 The method checks when the player presses the key. It returns true or false.
 
 Activity 2
+
 A class is like a coffee machine blueprint. A Component is like a real coffee machine made from the blueprint. Member variables are settings like temperature and coffee size. Methods are actions like making coffee and heating water. Different coffee machines can use the same design but have different settings.
 
 Activity 3
+
 The balls get extremely bright because their color is multiplied by 1.5 when they bounce at a certain speed. Every time this happens, the color values increase again. After many bounces, the values become very high, making the balls look extremely bright, especially in the Scene view. 
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
