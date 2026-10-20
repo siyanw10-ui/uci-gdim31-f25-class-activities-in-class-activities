@@ -48,6 +48,17 @@ A Component is like a real coffee machine made from the blueprint. Member variab
 The balls get extremely bright because their color is multiplied by 1.5 when they bounce at a certain speed. 
 Every time this happens, the color values increase again. After many bounces, the values become very high, making the balls look extremely bright, especially in the Scene view. 
 
+### W4
+
+### Question 1
+
+We added a Capsule Collider to the cat, a Sphere Collider to the soccer ball, and a Box Collider to the goal. We used Rigidbodies on the cat and soccer ball so they could interact with physics. We checked Is Trigger on the goal so the ball could pass through it and detect a goal. 
+
+### Question 2
+
+My game did not work correctly at first because I had some coding errors. I had an extra bracket and made mistakes with variable names and capitalization. I fixed these errors in SoccerBall.cs and checked my code again.
+
+
 
 ## Open-Source Assets
 ### W1
