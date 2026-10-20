@@ -50,6 +50,8 @@ Every time this happens, the color values increase again. After many bounces, th
 
 ### W4
 
+### Table Number: 
+
 ### Question 1
 
 We added a Capsule Collider to the cat, a Sphere Collider to the soccer ball, and a Box Collider to the goal. We used Rigidbodies on the cat and soccer ball so they could interact with physics. We checked Is Trigger on the goal so the ball could pass through it and detect a goal. 
