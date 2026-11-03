@@ -59,6 +59,42 @@ We added a Capsule Collider to the cat, a Sphere Collider to the soccer ball, an
 My game did not work correctly at first because I had some coding errors. I had an extra bracket and made mistakes with variable names and capitalization. I fixed these errors in SoccerBall.cs and checked my code again.
 
 
+### W5
+
+### Activity 1
+
+Part 1: Planning
+
+1. Member Variables
+
+The DeerW5 class needs a public Transform variable called target and a private NavMeshAgent variable called agent. The target stores the GameObject the deer will move toward, and the agent controls its movement.
+
+2. Methods
+
+I used the Start() method provided by Unity. I also used GetComponent<NavMeshAgent>() to get the NavMeshAgent component.
+
+3. Method Functions
+
+The Start() method gets the NavMeshAgent component and uses SetDestination() to make the deer move toward the target’s position.
+
+Part 1: Implementation
+
+I created the DeerW5 script and attached it to the Deer GameObject. I selected Mushroom_red as the target in the Inspector. After running the game, the deer successfully moved toward the red mushroom.
+
+Part 2: Cat Movement
+
+Step 1
+
+I added movement code to the CatW5 script. I used Input.GetAxis("Vertical") and Vector3.forward to control the cat with W and S. I used transform.Translate() to move the cat and Time.deltaTime to keep the movement speed consistent.
+
+Step 2
+
+I used an if statement and _flipWSControls to reverse the movement direction. When I checked Flip WS Controls in the Inspector, W moved the cat backward and S moved it forward.
+
+Problems and Solutions
+
+At first, the cat did not move because the movement code was missing. I added the code and tested it again. The cat then moved correctly. I learned how to use NavMeshAgent to move a character automatically and how to use Vector3 and keyboard input to control movement. I also learned how to reverse movement using an if statement. 
+
 
 ## Open-Source Assets
 ### W1
