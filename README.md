@@ -96,6 +96,7 @@ Problems and Solutions
 At first, the cat did not move because the movement code was missing. I added the code and tested it again. The cat then moved correctly. I learned how to use NavMeshAgent to move a character automatically and how to use Vector3 and keyboard input to control movement. I also learned how to reverse movement using an if statement. 
 
 
+
 ### W7
 
 ### Activity 1: Class Resource Guide
@@ -126,8 +127,11 @@ Boolean: Checks if the bat should chase the cat.
 3. Methods
 
 Start(): Starts chasing for testing.
+
 Update(): Moves the bat toward the cat.
+
 StartChasing(): Makes the bat start chasing.
+
 StopChasing(): Makes the bat stop chasing.
 
 The StartChasing() and StopChasing() methods need to be public so BatManager can use them.
