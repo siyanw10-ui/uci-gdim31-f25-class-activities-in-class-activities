@@ -96,6 +96,66 @@ Problems and Solutions
 At first, the cat did not move because the movement code was missing. I added the code and tested it again. The cat then moved correctly. I learned how to use NavMeshAgent to move a character automatically and how to use Vector3 and keyboard input to control movement. I also learned how to reverse movement using an if statement. 
 
 
+### W7
+
+### Activity 1: Class Resource Guide
+
+1. My Category
+
+My assigned category was Other Tools.
+
+2. Google Doc
+
+Google Doc Link: https://docs.google.com/document/d/1ZtUXbaq48lSscmZFjwwkLhq-6Y2Undi4IIagxdTtJH4/edit?usp=sharing
+
+
+### Activity 2: Pair Programming
+
+Part 1: Planning
+
+1. Goal
+
+We planned to create a BatW6 script to make the bats chase the cat.
+
+2. Member Variables
+
+Speed: Controls how fast the bat moves.
+Cat Transform: Stores the cat’s position.
+Boolean: Checks if the bat should chase the cat.
+
+3. Methods
+
+Start(): Starts chasing for testing.
+Update(): Moves the bat toward the cat.
+StartChasing(): Makes the bat start chasing.
+StopChasing(): Makes the bat stop chasing.
+
+The StartChasing() and StopChasing() methods need to be public so BatManager can use them.
+
+4. Coding Plan
+
+1. Create a BatW6 script.
+2. Add it to all bat GameObjects.
+3. Make the speed adjustable in the Inspector.
+4. Use Update() to move the bats toward the cat.
+5. Create methods to start and stop chasing.
+6. Use Start() to test the chasing behavior.
+
+Part 2: Final Changes
+
+1. Changes
+
+Remove Start() after testing so the bats do not chase the cat automatically when the game starts.
+
+2. Pair Programming
+
+We planned the code with a partner. One person would write the code, and the other would check it and give suggestions.
+
+3. What I Learned
+
+I learned how to use variables and methods to control GameObjects. I also learned how to plan code with a partner.
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
