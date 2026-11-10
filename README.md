@@ -110,6 +110,7 @@ My assigned category was Other Tools.
 Google Doc Link: https://docs.google.com/document/d/1ZtUXbaq48lSscmZFjwwkLhq-6Y2Undi4IIagxdTtJH4/edit?usp=sharing
 
 
+
 ### Activity 2: Pair Programming
 
 
@@ -145,6 +146,7 @@ The StartChasing() and StopChasing() methods need to be public so BatManager can
 4. Use Update() to move the bats toward the cat.
 5. Create methods to start and stop chasing.
 6. Use Start() to test the chasing behavior.
+
 
 
 Part 2: Final Changes
