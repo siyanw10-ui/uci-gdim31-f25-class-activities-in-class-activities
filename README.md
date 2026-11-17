@@ -147,7 +147,7 @@ The StartChasing() and StopChasing() methods need to be public so BatManager can
 3. Make the speed adjustable in the Inspector.
 4. Use Update() to move the bats toward the cat.
 5. Create methods to start and stop chasing.
-6. Use Start() to test the chasing behavior.
+6. Use Start() to test the chasing behavior. 
 
 
 
@@ -164,6 +164,41 @@ We planned the code with a partner. One person would write the code, and the oth
 3. What I Learned
 
 I learned how to use variables and methods to control GameObjects. I also learned how to plan code with a partner.
+
+
+
+
+### W8
+
+## Activity 1
+
+### Step 1: Rotation
+
+I used `transform.Rotate()` to make the Muskrat turn left and right using the A and D keys.
+
+### Step 2: Movement
+
+The original code used `Vector3.forward`, which always moves the Muskrat in the same world direction. I changed it to `transform.forward` so the Muskrat moves in the direction it is facing.
+
+### Step 3: Bubble Movement
+
+I used `transform.RotateAround()` to make the Muskrat move around the bubble. The Muskrat can now move and turn on the bubble.
+
+### Step 4: Ground Animation
+
+I used the `running` and `flying` parameters to control the animations. The Muskrat plays Idle when standing still, Running when moving, and Flying when jumping.
+
+### Step 5: Bubble Animation
+
+I set `flying` to false while the Muskrat is on a bubble. It plays Running when moving and Idle when standing still.
+
+### Problems and Solutions
+
+The Muskrat was falling over when turning. I fixed this by enabling Freeze Rotation X and Z in the Rigidbody Constraints.
+
+### What I learned
+
+I learned how to use different movement directions, control rotation, and switch animations using Animator parameters.
 
 
 ## Open-Source Assets
