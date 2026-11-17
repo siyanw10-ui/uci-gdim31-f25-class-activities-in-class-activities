@@ -46,18 +46,23 @@ public class MuskratW7 : MonoBehaviour
         // You might want to look below Step 3 for an example :D
         
         float leftright = Input.GetAxis("Horizontal");
-        
 
+Vector3 upAxis = transform.TransformDirection(Vector3.up);
 
-        // STEP 3 -------------------------------------------------------------
+transform.RotateAround(
+    _sphereTransform.position,
+    upAxis,
+    leftright * _rotationSpeed * Time.deltaTime
+);
 
-        float forward = Input.GetAxis("Vertical");
-        Vector3 axis = transform.TransformDirection(Vector3.right);
-        transform.RotateAround(
-            _sphereTransform.position,
-            axis,
-            forward * _rotationSpeed * Time.deltaTime
-        );
+float forward = Input.GetAxis("Vertical");
+Vector3 axis = transform.TransformDirection(Vector3.right);
+
+transform.RotateAround(
+    _sphereTransform.position,
+    axis,
+    forward * _rotationSpeed * Time.deltaTime
+);
 
 
         // STEP 5 -------------------------------------------------------------
@@ -66,6 +71,9 @@ public class MuskratW7 : MonoBehaviour
         // The Muskrat should never play the "flying" animation while on a
         //      bubble.
 
+        
+        _animator.SetBool("flying", false);
+        _animator.SetBool("running", Mathf.Abs(forward) > 0.1f || Mathf.Abs(leftright) > 0.1f);
 
         // STEP 5 -------------------------------------------------------------
     }
@@ -86,9 +94,11 @@ public class MuskratW7 : MonoBehaviour
         //      like up, left, right, or forward.
 
         float leftright = Input.GetAxis("Horizontal");
+        
+        transform.Rotate(Vector3.up * leftright * _rotationSpeed * Time.deltaTime);
 
         // STEP 1 -------------------------------------------------------------
-
+     
 
         // STEP 2 -------------------------------------------------------------
         float movement = Input.GetAxis("Vertical");
@@ -96,9 +106,13 @@ public class MuskratW7 : MonoBehaviour
         // This line of code is incorrect. 
         // Replace it with a different line of code that uses 'movement' to
         //      move the Muskrat forwards and backwards.
-        transform.position += movement * Vector3.forward * _moveSpeed * Time.deltaTime;
+        transform.position += movement * transform.forward * _moveSpeed * Time.deltaTime;
+
 
         // STEP 2 -------------------------------------------------------------
+        
+        _animator.SetBool("running", Mathf.Abs(movement) > 0.1f || Mathf.Abs(leftright) > 0.1f);
+        _animator.SetBool("flying", Mathf.Abs(_rigidbody.linearVelocity.y) > 0.1f);
 
 
         // STEP 4 -------------------------------------------------------------
