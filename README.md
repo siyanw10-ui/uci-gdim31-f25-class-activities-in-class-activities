@@ -170,7 +170,7 @@ I learned how to use variables and methods to control GameObjects. I also learne
 
 ### W8
 
-## Activity 1
+### Activity 1
 
 ### Step 1: Rotation
 
