@@ -214,11 +214,7 @@ I learned how to use different movement directions, control rotation, and switch
 
 ### Activity 1
 
-- I chose the 2D Final project.
-- I created a Google Drawing to plan my game.
-- I included five main GameObjects: Player, Kickable Items, Ground/Platforms, GameManager, and UI Canvas.
-- I added components and arrows to show how the GameObjects interact.
-- I planned to use a List to track items and a timer to show the remaining time.
+I decided to work on the 2D final because I wanted to design a small game with my own art style. I made a diagram to organize the main parts of the game, including the cat, items, platforms, game controller, and UI. Making this diagram helped me understand how these parts connect and gave me a clearer idea of where to start.
 
 Google Drawing Link: https://docs.google.com/drawings/d/1q0GJiuTV7HxDcDbSFntUiwsu2g5rPcAsikqpb046tMw/edit?usp=sharing
 
