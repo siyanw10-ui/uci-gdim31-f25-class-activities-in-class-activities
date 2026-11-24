@@ -208,7 +208,7 @@ I learned how to use different movement directions, control rotation, and switch
 
 ## W9
 
-### Activity 1: Planning the Final
+### Activity 1
 
 - I chose the 2D Final project.
 - I created a Google Drawing to plan my game.
@@ -218,7 +218,7 @@ I learned how to use different movement directions, control rotation, and switch
 
 Google Drawing Link: https://docs.google.com/drawings/d/1q0GJiuTV7HxDcDbSFntUiwsu2g5rPcAsikqpb046tMw/edit?usp=sharing
 
-### Activity 2: Work on Final
+### Activity 2
 
 - I reviewed the requirements for the 2D Final.
 - I planned the main game systems.
