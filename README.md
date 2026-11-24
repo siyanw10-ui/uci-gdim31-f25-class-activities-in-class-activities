@@ -204,6 +204,27 @@ The Muskrat was falling over when turning. I fixed this by enabling Freeze Rotat
 I learned how to use different movement directions, control rotation, and switch animations using Animator parameters.
 
 
+
+
+## W9
+
+### Activity 1: Planning the Final
+
+- I chose the 2D Final project.
+- I created a Google Drawing to plan my game.
+- I included five main GameObjects: Player, Kickable Items, Ground/Platforms, GameManager, and UI Canvas.
+- I added components and arrows to show how the GameObjects interact.
+- I planned to use a List to track items and a timer to show the remaining time.
+
+Google Drawing Link: https://docs.google.com/drawings/d/1q0GJiuTV7HxDcDbSFntUiwsu2g5rPcAsikqpb046tMw/edit?usp=sharing
+
+### Activity 2: Work on Final
+
+- I reviewed the requirements for the 2D Final.
+- I planned the main game systems.
+- I prepared the structure for my final project.
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
